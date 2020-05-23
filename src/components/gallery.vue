@@ -100,4 +100,17 @@
     margin-top: 10%;
   }
 
+  /*optimization*/
+  @media (min-width:768px) and (max-width:1023px) {
+    .card-img {
+      margin-top: 15%;
+    }
+  }
+
+  @media (min-width:1024px) and (max-width:1366px) {
+    .card-img {
+      margin-top: 15%;
+    }
+  }
+
 </style>
