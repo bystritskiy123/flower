@@ -39,7 +39,7 @@
   }
 
   h3 {
-    width: 80%;
+    width: 82%;
     height: auto;
     font-size: 150%;
     margin-left: 10%;
@@ -59,6 +59,22 @@
 
   img {
     margin-left: 5%;
+  }
+
+  /*optimization*/
+  @media (min-width:360px) and (max-width:850px) {
+    h1 {
+      margin-left: 10%;
+    }
+
+    h4 {
+      margin-left: 10%;
+    }
+
+    img {
+      margin-left: 17%;
+      margin-top: 7%;
+    }
   }
 
 </style>

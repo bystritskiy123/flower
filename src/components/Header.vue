@@ -117,6 +117,11 @@
   }
 
   @media screen and (min-width:760px) and (max-width:1023px) {
+    #header {
+      height: 4]50rem;
+    }
+
+
     #menu {
       height: 20%;
     }
@@ -136,6 +141,17 @@
     li {
       font-size: 120%;
       margin-left: 5%;
+    }
+
+    h1 {
+      font-size: 350%;
+      margin-top: 30%;
+      margin-left: 30%;
+    }
+
+    h2 {
+      margin-left: 30%;
+      font-size: 160%;
     }
   }
 
