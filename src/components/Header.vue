@@ -45,7 +45,7 @@
   #menu {
     background-color: rgba(255, 255, 255, 0.767);
     background-size: cover;
-    width: 100%;
+    width: auto;
     height: 17%;
     display: flex;
   }
@@ -83,5 +83,49 @@
     font-size: 180%;
     margin-top: 5%;
   }
+
+  /*optimization*/
+  @media screen and (max-width:850px) {
+    img {
+      width: auto;
+      height: 40%;
+      margin: 20px 20px 10px;
+    }
+
+    ul {
+      display: block;
+    }
+
+    li {
+      margin-top: 5%;
+    }
+
+    #menu {
+      height: 30%;
+    }
+  }
+
+  @media screen and (min-width:760px) and (max-width:1023px) {
+    #menu {
+      height: 45%;
+    }
+
+    img {
+      height: 30%;
+    }
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1370px) {
+    img {
+      margin: 20px 100px 10px;
+    }
+
+    ul {
+      width: 90%;
+      margin-right: 5%;
+    }
+  }
+
+  /*optimizatiom*/
 
 </style>
