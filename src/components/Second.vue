@@ -72,8 +72,31 @@
     }
 
     img {
-      margin-left: 17%;
+      margin-left: 10%;
       margin-top: 7%;
+    }
+  }
+
+  @media (min-width:1024px) and (max-width:1366px) {
+    h1 {
+      margin-left: 17%;
+    }
+
+    h3 {
+      font-size: 200%;
+    }
+
+    h4 {
+      font-size: 200%;
+      margin-left: 3%;
+    }
+
+    img {
+      margin-left: 5%;
+    }
+
+    #images {
+      margin-left: 3%;
     }
   }
 

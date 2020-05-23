@@ -118,7 +118,7 @@
 
   @media screen and (min-width:760px) and (max-width:1023px) {
     #header {
-      height: 4]50rem;
+      height: 50rem;
     }
 
 
