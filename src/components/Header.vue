@@ -101,17 +101,41 @@
     }
 
     #menu {
-      height: 30%;
+      height: 35%;
+    }
+
+    h1 {
+      font-size: 220%;
+      margin-left: 7%;
+      margin-top: 40%;
+    }
+
+    h2 {
+      margin-left: 6%;
+      font-size: 100%;
     }
   }
 
   @media screen and (min-width:760px) and (max-width:1023px) {
     #menu {
-      height: 45%;
+      height: 20%;
     }
 
     img {
-      height: 30%;
+      width: 35%;
+      height: 50%;
+      margin: 30px;
+    }
+
+    ul {
+      display: flex;
+      width: 100%;
+      height: auto;
+    }
+
+    li {
+      font-size: 120%;
+      margin-left: 5%;
     }
   }
 
