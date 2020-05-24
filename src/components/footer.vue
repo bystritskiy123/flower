@@ -208,8 +208,26 @@
       margin-left: 13%;
     }
 
-    #part_2 h4{
+    #part_2 h4 {
       margin-left: 30%;
+    }
+  }
+
+  @media screen and (min-width:1920px) {
+    #part_1 .text h3 {
+      font-size: 220%;
+    }
+
+    #part_1 .text h4 {
+      font-size: 170%;
+    }
+
+    #part_2 img {
+      width: 10%;
+    }
+
+    #part_2 h4 {
+      font-size: 220%;
     }
   }
 

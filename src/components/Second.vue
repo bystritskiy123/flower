@@ -100,4 +100,22 @@
     }
   }
 
+  @media screen and (min-width:1920px) {
+    h1 {
+      font-size: 400%;
+    }
+
+    h3 {
+      font-size: 190%;
+    }
+
+    h4 {
+      font-size: 200%;
+    }
+
+    img {
+      width: 15%;
+    }
+  }
+
 </style>

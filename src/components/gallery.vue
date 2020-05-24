@@ -113,4 +113,14 @@
     }
   }
 
+  @media screen and (min-width:1920px) {
+    .card-body {
+      font-size: 160%;
+    }
+
+    .card-title {
+      font-size: 160%;
+    }
+  }
+
 </style>

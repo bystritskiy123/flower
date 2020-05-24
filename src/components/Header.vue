@@ -155,7 +155,7 @@
     }
   }
 
-  @media screen and (min-width:1024px) and (max-width:1370px) {
+  @media (min-width:1024px) and (max-width:1370px) {
     img {
       margin: 20px 100px 10px;
     }
@@ -163,6 +163,31 @@
     ul {
       width: 90%;
       margin-right: 5%;
+    }
+  }
+
+  @media (min-width:1920px) {
+    #header {
+      height: 58rem;
+    }
+
+    ul {
+      margin-left: 5%;
+    }
+
+    li {
+      font-size: 200%;
+    }
+
+    h1 {
+      font-size: 700%;
+      margin-left: 25%;
+      margin-top: 24%;
+    }
+
+    h2 {
+      font-size: 250%;
+      margin-left: 32%;
     }
   }
 
