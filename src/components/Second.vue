@@ -127,4 +127,14 @@
     }
   }
 
+  @media (min-width:2500px) and (max-width:5000px) {
+    h3 {
+      font-size: 260%;
+    }
+
+    h4 {
+      font-size: 250%;
+    }
+  }
+
 </style>

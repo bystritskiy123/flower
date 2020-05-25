@@ -196,6 +196,34 @@
     }
   }
 
+  @media (min-width:2500px) and (max-width:5000px) {
+    #header {
+      height: 77rem;
+    }
+
+    img {
+      width: auto;
+      height: 80%;
+      margin: 20px 300px 15px;
+    }
+
+    ul {
+      margin-top: 3%;
+    }
+
+    li {
+      font-size: 220%;
+    }
+
+    h1 {
+      font-size: 900%;
+    }
+
+    h2 {
+      font-size: 300%;
+    }
+  }
+
   /*optimizatiom*/
 
 </style>
