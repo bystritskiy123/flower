@@ -3,11 +3,11 @@
     <div id="menu">
       <img src="../assets/log.png" alt="logo">
       <ul>
-        <li>Home</li>
-        <li>About ass</li>
-        <li>Services</li>
-        <li>Contact</li>
-        <li>Login</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About ass</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Login</a></li>
       </ul>
     </div>
     <h1>WELCOME TO PINK</h1>
@@ -67,6 +67,11 @@
   li {
     margin-left: 8%;
     font-size: 120%;
+  }
+
+  li a {
+    text-decoration: none;
+    color: black;
   }
 
   h1 {
