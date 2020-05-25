@@ -4,10 +4,10 @@
     <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus-</h3>
     <h4>try's standard dummy text ever since the 1500s, when an unknown</h4>
     <div id="images">
-      <img src="../assets/Tickets.png" alt="Tickets">
-      <img src="../assets/Camera.png" alt="Camera">
-      <img src="../assets/bear.png" alt="bear">
-      <img src="../assets/Devices.png" alt="Devices">
+      <a href="#"><img src="../assets/Tickets.png" alt="Tickets"></a>
+      <a href="#"><img src="../assets/Camera.png" alt="Camera"></a>
+      <a href="#"><img src="../assets/bear.png" alt="bear"></a>
+      <a href="#"><img src="../assets/Devices.png" alt="Devices"></a>
     </div>
   </div>
 </template>
@@ -57,8 +57,10 @@
     margin-top: 10%;
   }
 
-  img {
+  a {
     margin-left: 5%;
+    width: auto;
+    height: auto;
   }
 
   /*optimization*/
@@ -71,9 +73,15 @@
       margin-left: 10%;
     }
 
-    img {
+    #images a img {
       margin-left: 10%;
-      margin-top: 7%;
+      margin-top: 10%;
+    }
+  }
+
+  @media (min-width:768px) and (max-width:1023px) {
+    #images {
+      margin-left: 5%;
     }
   }
 
@@ -91,13 +99,14 @@
       margin-left: 3%;
     }
 
-    img {
+    #images {
       margin-left: 5%;
     }
 
-    #images {
-      margin-left: 3%;
+    img {
+      width: 17%;
     }
+
   }
 
   @media screen and (min-width:1920px) {

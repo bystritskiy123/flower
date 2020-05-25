@@ -65,8 +65,8 @@
   }
 
   li {
-    margin-left: 7%;
-    font-size: 140%;
+    margin-left: 8%;
+    font-size: 120%;
   }
 
   h1 {
