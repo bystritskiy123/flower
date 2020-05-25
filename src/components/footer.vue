@@ -141,6 +141,7 @@
     background-size: cover;
     width: auto;
     height: auto;
+    font-family: 'univers';
   }
 
   #part_1 {

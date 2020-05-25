@@ -7,7 +7,7 @@
         <li><a href="#">About ass</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Login</a></li>
+        <li><a href="#"><button>Login</button></a></li>
       </ul>
     </div>
     <h1>WELCOME TO PINK</h1>
@@ -35,6 +35,16 @@
 </script>
 
 <style scoped>
+  @font-face {
+    font-family: 'AlteHaasGroteskBold';
+    src: url('../fonts/AlteHaasGroteskBold.ttf') format("truetype");
+  }
+
+  @font-face {
+    font-family: 'univers';
+    src: url('../fonts/univers.ttf') format("truetype");
+  }
+
   #header {
     background-image: url('../assets/backgraund.png');
     background-size: cover;
@@ -80,6 +90,7 @@
     margin-left: 30%;
     font-size: 480%;
     height: 7%;
+    font-family: 'AlteHaasGroteskBold';
   }
 
   h2 {
@@ -87,6 +98,13 @@
     margin-left: 35%;
     font-size: 180%;
     margin-top: 5%;
+    font-family: 'univers';
+  }
+
+  button {
+    border-radius: 4px 4px 4px 4px;
+    background-color: red;
+    color: white;
   }
 
   /*optimization*/
@@ -110,7 +128,7 @@
     }
 
     h1 {
-      font-size: 220%;
+      font-size: 200%;
       margin-left: 7%;
       margin-top: 40%;
     }
@@ -149,7 +167,7 @@
     }
 
     h1 {
-      font-size: 350%;
+      font-size: 330%;
       margin-top: 30%;
       margin-left: 30%;
     }
@@ -168,6 +186,11 @@
     ul {
       width: 90%;
       margin-right: 5%;
+    }
+
+    h1 {
+      font-size: 370%;
+      margin-left: 35%;
     }
   }
 

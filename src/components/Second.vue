@@ -36,6 +36,7 @@
     margin-left: 30%;
     margin-top: 10%;
     font-size: 300%;
+    font-family: 'univers';
   }
 
   h3 {
@@ -44,10 +45,12 @@
     font-size: 150%;
     margin-left: 10%;
     margin-top: 2%;
+    font-family: 'univers';
   }
 
   h4 {
     margin-left: 25%;
+    font-family: 'univers';
   }
 
   #images {
@@ -96,7 +99,8 @@
 
     h4 {
       font-size: 200%;
-      margin-left: 3%;
+      margin-left: 10%;
+      width: 82%;
     }
 
     #images {
@@ -129,11 +133,11 @@
 
   @media (min-width:2500px) and (max-width:5000px) {
     h3 {
-      font-size: 260%;
+      font-size: 240%;
     }
 
     h4 {
-      font-size: 250%;
+      font-size: 240%;
     }
   }
 

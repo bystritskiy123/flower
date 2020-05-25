@@ -94,6 +94,7 @@
     margin-left: 20%;
     margin-top: 9%;
     border: 0px;
+    font-family: 'univers';
   }
 
   hr {
