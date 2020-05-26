@@ -7,8 +7,9 @@
         <li><a href="#">About ass</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">
-            <forma /></a></li>
+        <li>
+          <forma />
+        </li>
       </ul>
     </div>
     <h1>WELCOME TO PINK</h1>
@@ -105,12 +106,6 @@
     font-size: 180%;
     margin-top: 5%;
     font-family: 'univers';
-  }
-
-  button {
-    border-radius: 4px 4px 4px 4px;
-    background-color: red;
-    color: white;
   }
 
   /*optimization*/

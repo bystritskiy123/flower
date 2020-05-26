@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <button id="show-modal" @click="showModal = true">Show Modal</button>
+    <button id="show-modal" @click="showModal = true">Login</button>
     <!-- use the modal component, pass in the prop -->
     <modal v-if="showModal" @close="showModal = false">
       <transition name="modal">
@@ -23,7 +23,7 @@
 
               <div class="modal-footer">
                 <slot name="footer">
-                  <button id="show-modal" @click="showModal = false">Show Modal</button>
+                  <button @click="showModal = false">Show Modal</button>
                 </slot>
 
               </div>
@@ -55,6 +55,11 @@
 </script>
 
 <style scoped>
+  #show-modal {
+    background: red;
+    color: white;
+  }
+
   .modal-mask {
     position: fixed;
     z-index: 9998;
