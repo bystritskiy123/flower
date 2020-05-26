@@ -7,7 +7,8 @@
         <li><a href="#">About ass</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#"><button>Login</button></a></li>
+        <li><a href="#">
+            <forma /></a></li>
       </ul>
     </div>
     <h1>WELCOME TO PINK</h1>
@@ -16,6 +17,7 @@
 </template>
 
 <script>
+  import forma from './forma.vue'
   export default {
     name: 'Header',
     data() {
@@ -30,6 +32,10 @@
     computed: {
 
     },
+
+    components: {
+      forma
+    }
   }
 
 </script>
